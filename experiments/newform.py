@@ -7,10 +7,10 @@
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QWidget, QGridLayout, QCheckBox, QLabel, QDateEdit, QToolBox, QRadioButton, QFormLayout, \
+from PySide6 import QtWidgets
+from PySide6.QtWidgets import QWidget, QGridLayout, QCheckBox, QLabel, QDateEdit, QToolBox, QRadioButton, QFormLayout, \
     QTableWidget, QHBoxLayout, QTableView
-from PyQt5.QtCore import QRect, Qt, QMetaObject, QCoreApplication
+from PySide6.QtCore import QRect, Qt, QMetaObject, QCoreApplication
 
 
 # from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,

@@ -1,19 +1,20 @@
 # This is a sample Python script.
-from PyQt5.QtWidgets import QWidget,QFontComboBox, QComboBox, QRadioButton, QLineEdit, QPushButton,QMessageBox, QGraphicsEffect, QStylePainter, QApplication,QFrame, QBoxLayout,QLabel,QFileDialog
-from PyQt5.QtCore import QDateTime
+from PySide6.QtWidgets import QWidget,QFontComboBox, QComboBox, QRadioButton, QLineEdit, QPushButton,QMessageBox, QGraphicsEffect, QStylePainter, QApplication,QFrame, QBoxLayout,QLabel,QFileDialog
+from PySide6.QtCore import QDateTime
 import pathlib
-from PyQt5.QtGui import QPainter
+from PySide6.QtGui import QPainter
 import os
 import sys
 from os.path import join,getsize
 from pathlib import Path
-from PyQt5.QtGui import QIcon
+# from PySide6.QtGui import Q
 import glob
 import shutil
 from app import menu
 
 
 #todo Make icon in photoshop
+#TODO Make icon in photoshop
 
 p=Path('d:\\Download\\Assets\\Materials')
 subdirs=[x for x in p.iterdir()]
@@ -127,3 +128,7 @@ if __name__ == '__main__':
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+#TODO make a panel with label and 2 buttons
+#TODO Unzip folder with zip files
+#TODO zip folder with files, one zip file for on file
